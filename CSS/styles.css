@@ -1,0 +1,388 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:900);
+@import url(http://fonts.googleapis.com/css?family=Coming+Soon);
+@import url(http://fonts.googleapis.com/css?family=Nunito:300);
+
+html {
+	height: 100%;
+	background: -webkit-radial-gradient(#1b2735 0%, #090a0f 100%);
+	/* Safari 5.1-6.0 */
+	background: -o-radial-gradient(#1b2735, #090a0f 100%);
+	/* For Opera 11.6-12.0 */
+	background: -moz-radial-gradient(#1b2735, #090a0f);
+	/* For Firefox 3.6-15 */
+	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+	overflow: hidden;
+}
+
+.custom-message-html {
+	height: inherit !important;
+	overflow: auto !important
+}
+
+
+.message {
+	opacity: 0.0;
+	transform: translateY(-50%) translateX(-50%);
+	-ms-transform: translateY(-50%) translateX(-50%);
+	-moz-transform: translateY(-50%) translateX(-50%);
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	-o-transform: translateY(-50%) translateX(-50%);
+
+	top: 20%;
+	left: 49%;
+	width: 700px;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Coming Soon';
+	position: absolute;
+	z-index: 999999;
+}
+
+.with-love {
+	font-family: "Nunito", sans-serif;
+	display: block-inline;
+	color: white;
+}
+
+.subscribe-wrapper {
+	padding-top: 20px;
+}
+
+.mindful-tools {
+	opacity: 0.5;
+	font-size: 24px;
+}
+
+.stars {
+	height: 1px;
+	width: 1px;
+	background-color: #ffffff;
+	position: absolute;
+	box-shadow: 0px 0px 1px #fff;
+}
+
+.mainStar {
+	display: block;
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	background: #ddd;
+	box-shadow: 0 0 50px tomato, 0 0 30px orange, inset 0 10px 10px 20px #ddd, inset 30px 0 35px 50px #ccc;
+
+	margin: auto;
+	opacity: 0;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -170px;
+	margin-top: -150px;
+	z-index: 1;
+}
+
+/*.mainStarMove {
+  box-shadow:0 0 50px gold,0 0 150px gold, inset 0 20px 20px 40px whitesmoke, inset 30px 0 35px 50px ivory;
+
+  background:#aaa;
+  transition:1s;
+}*/
+
+.thought {
+	display: block;
+	height: 210px;
+	width: 210px;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	margin-left: -105px;
+	margin-top: -105px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	z-index: 3;
+}
+
+.thoughtText {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	z-index: 3;
+}
+
+.overlay {
+	top: 50%;
+	left: 50%;
+	width: 800px;
+	height: 400px;
+	border-radius: 20px;
+	margin-top: -180px;
+	margin-left: -420px;
+	opacity: 0;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.2);
+	display: none;
+}
+
+.overlay-show {
+	top: 50%;
+	left: 50%;
+	width: 800px;
+	height: 400px;
+	border-radius: 20px;
+	margin-top: -180px;
+	margin-left: -420px;
+	opacity: 1;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.overlay-show-custom-message {
+	top: 36%;
+	left: 50%;
+	width: 800px;
+	height: 537px;
+	border-radius: 20px;
+	margin-top: -174px;
+	margin-left: -400px;
+	opacity: 1;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.content-wrapper {
+	margin: 5em auto;
+	z-index: 100;
+	position: absolute;
+	top: 30%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+
+.emailAddy {
+	display: inline-block;
+	top: 59%;
+	left: 50%;
+	background: white;
+	border-radius: 15px;
+	border: none;
+	padding: 0.8em;
+	color: black;
+	font-size: 13px;
+	padding-left: 1.5em;
+	width: 200px;
+	outline: none;
+	box-shadow: 0 4px 6px -5px hsl(0, 10%, 40%), inset 0px 4px 6px -5px hsl(0, 0%, 2%)
+}
+
+.custom-msg-input-container img {
+	border: 1px solid white;
+	margin: 0 auto;
+	border-radius: 10px;
+	display: block;
+}
+
+.custom-msg-input {
+	margin: 0 auto;
+	top: -20px;
+	top: -20px;
+	padding: 10px;
+	background: white;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: none;
+	padding: 0.8em;
+	color: #769a9c;
+	background: #121822;
+	text-align: center;
+	font-size: 19px;
+	border-radius: 11px;
+	width: 301px;
+	position: relative;
+	top: -250px;
+	margin-bottom: -25px;
+	font-family: 'Coming Soon';
+}
+
+.done {
+	opacity: 1;
+}
+
+.done2 {
+	opacity: 0.5;
+	z-index: 100;
+}
+
+
+.mainTitle {
+	height: 300px;
+	width: 600px;
+	top: 50%;
+	left: 50%;
+	margin-top: -120px;
+	margin-left: -320px;
+}
+
+.red-background {
+	background: #A7582C !important;
+}
+
+.title {
+	top: 50%;
+	left: 50%;
+	margin-top: -120px;
+	margin-left: -320px;
+	position: fixed;
+	color: white;
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Coming Soon';
+}
+
+.title-custom-message {
+	color: white;
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Coming Soon';
+	margin-top: 30px;
+}
+
+.typeHere {
+
+	top: 78%;
+	left: 50%;
+	margin-left: -210px;
+
+	background: white;
+	border-radius: 15px;
+	border: none;
+	padding: 0.8em;
+	opacity: 0;
+	color: black;
+	font-size: 16px;
+	padding-left: 1.5em;
+	width: 350px;
+
+	outline: none;
+	box-shadow: 0 4px 6px -5px hsl(0, 10%, 40%), inset 0px 4px 6px -5px hsl(0, 0%, 2%)
+}
+
+.submit {
+	opacity: 0;
+}
+
+.title-done {
+	font-size: 40px;
+}
+
+.heart {
+	color: red;
+}
+
+.subscribe {
+	top: 55%;
+	left: 48%;
+}
+
+.fb-like span>iframe {
+	position: absolute !important;
+}
+
+.sub-title {
+	font-size: 25px;
+}
+
+.btn-enterthought {
+	top: 90%;
+	margin-left: -15px;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	-ms-transform: translateY(-50%) translateX(-50%);
+	-moz-transform: translateY(-50%) translateX(-50%);
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	-o-transform: translateY(-50%) translateX(-50%);
+}
+
+.button {
+	z-index: 10;
+	border-radius: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #0C5;
+
+	font-size: 16px;
+	font-family: "Nunito", sans-serif;
+	font-weight: 300;
+	padding: 20px 0;
+	width: 150px;
+	height: 10px;
+
+	background: rgb(167, 88, 44);
+	border: 1px solid rgb(167, 88, 44);
+	color: #FFF;
+	overflow: hidden;
+}
+
+.top-20 {
+	z-index: 100;
+	right: 0;
+	bottom: 0;
+	margin-top: 30px;
+	left: 0;
+	text-align: center;
+}
+
+.less-rounded {
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+.button:hover,
+.button:active {
+	text-decoration: none;
+	color: rgb(167, 88, 44);
+	border-color: rgb(167, 88, 44);
+	background: #FFF;
+}
+
+.button span {
+	display: inline-block;
+	position: relative;
+	padding-right: 0;
+	top: -5px;
+
+	transition: padding-right 0.5s;
+}
+
+.button span:after {
+	content: ' ';
+	position: absolute;
+	top: 0;
+	right: -18px;
+	opacity: 0;
+	width: 10px;
+	height: 10px;
+	margin-top: -10px;
+
+	background: rgba(0, 0, 0, 0);
+	border: 3px solid #FFF;
+	border-top: none;
+	border-right: none;
+
+	transition: opacity 0.5s, top 0.5s, right 0.5s;
+	transform: rotate(-45deg);
+}
+
+.button:hover span,
+.button:active span {
+	padding-right: 30px;
+}
+
+.button:hover span:after,
+.button:active span:after {
+	transition: opacity 0.5s, top 0.5s, right 0.5s;
+	opacity: 1;
+	border-color: rgb(167, 88, 44);
+	right: 0;
+	top: 50%;
+}

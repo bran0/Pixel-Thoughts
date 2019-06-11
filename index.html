@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>A 60-second meditation tool to help clear your mind</title>
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+	<link rel="image_src" type="image/jpeg" href="images/moon.jpg" />
+	<link rel="stylesheet" type="text/css" href="CSS/styles.css" />
+	<script>
+		if (/Android/i.test(navigator.userAgent)) {
+			var html = document.getElementsByTagName("html")
+			html[0].style.background = '#111821'
+		}
+	</script>
+</head>
+
+<body>
+	<a style="display:none;" href="https://www.linkedin.com/in/marcbalaban/"></a>
+	<div id="cover"></div>
+	<img src="/images/fullscreen.png" height="32" width="32" align="right" style="opacity:0.2">
+	<div class="message">
+		<span class="insideMessage">Put a stressful thought in the star</span>
+	</div>
+	<div class="mainTitle title">
+		<div>Pixel Thoughts</div>
+		<div class="sub-title"> A 60-second meditation tool to help clear your mind</div>
+		<br>
+		<div class="sub-title custom-message-username"></div>
+	</div>
+	<div class="mainStar">
+		<div class="thought">
+			<span class="thoughtText"></span>
+		</div>
+	</div>
+	<input placeholder="What's bothering you?..." class="typeHere" style="position:fixed;"></input>
+	<a href="#" class="button submit btn-enterthought" style="position:fixed;"><span>Done</span>
+	</a>
+	<div class="overlay">
+		<div class="title done title-done">
+			Hope you feel a little less stressed
+			<br>and a little more connected
+		</div>
+		<div class="content-wrapper">
+
+			<div class="addthis_toolbox addthis_default_style" style="opacity:0.5; margin-left:265px; display: flex;">
+				<a class="addthis_button_facebook_like" fb:like:layout="button_count" fb:like:href="http://www.facebook.com/pixelthoughts"></a> - <a class="addthis_button_tweet" addthis:url="http://www.pixelthoughts.co" tw:text="A 60 second meditation tool to help clear the mind"></a>
+				<a class="addthis_counter addthis_pill_style" addthis:url="http://www.pixelthoughts.co"></a>
+			</div>
+			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-554826c06f8a35e4"></script>
+
+			<div class="subscribe-wrapper">
+				<span class="with-love mindful-tools">New mindfulness tools coming soon</span>
+				<form class="done" action="/subscribe" method="POST" id="subForm" accept-charset="utf-8">
+					<input placeholder="Enter email for updates" class="emailAddy" id="fieldEmail" name="email" type="email" required />
+					<button class="button subscribe" type="submit">
+						<p style="margin-top:-10px">subscribe</p>
+					</button>
+			</div>
+			</form>
+			<div class="done2 with-love" style="padding-top:20px">Made with <span class="heart">&#9829;</span> by <a style="color: white; text-decoration: none" href="/cdn-cgi/l/email-protection#d6bbb7a4b596bbb7a4b5b4b7bab7b4b7b8f8b5b9bb">Marc Balaban</a></div>
+		</div>
+	</div>
+	</div>
+	<audio class="audio" autoplay>
+		<source src="media/background.mp3" type="audio/mp3">
+	</audio>
+	</div>
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src='JS/jquery-1.11.2.min.js'></script>
+	<script src='JS/jquery.textfill.min.js'></script>
+	<script src='JS/html2canvas.js'></script>
+	<script src="JS/d3.js" charset="utf-8"></script>
+	<script src='JS/d3methods.js'></script>
+	<script src='JS/jqueryMethods.js'></script>
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-62307432-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</body>
+
+</html>
